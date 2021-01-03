@@ -3,3 +3,6 @@
 Step1:
 ----------
 a. create the mysql pod creation file" create-mysql-pod1.yml"(attached here) under kubernetis console .
+b. in the kubernetis console enter the command shown below.
+   >kubectl create -f create-mysql-pod1.yml
+   
