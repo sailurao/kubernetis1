@@ -15,7 +15,14 @@ SmF2YTIwMjA=
 $ kubectl create -f mysql-secret.yaml
 
 
+4. Verify secrets
+   kubectl get secrets
+   
+5. Create the mysql-pod.yaml file to deploy MySQL pod on Kubernetes cluster:
 
+
+   
+   
 
 
 
