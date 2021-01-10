@@ -10,6 +10,11 @@ SmF2YTIwMjA=
 
 2. Create a mysql-secret.yaml
 
+3. Apply the manifest:
+
+$ kubectl create -f mysql-secret.yaml
+
+
 
 
 
