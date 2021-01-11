@@ -54,7 +54,11 @@ CREATE TABLE `user` (
 INSERT INTO  user(firstName, lastName , age , salary , username,password )  values("Rama", "Taraka" ,  25 ,  10000 ,  "ramar" ,  "1234");
 exit;
 
+12.  create mysql_service.yaml service file to expose mysql_pod to other pods .
 
+13. Apply the manifest to create the service:
+
+$ kubectl create -f mysql-service.yaml
 
 
 
