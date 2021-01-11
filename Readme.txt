@@ -32,6 +32,13 @@ $ kubectl get pod
 
   kubectl exec k8s-mysql -it -- bash
 
+9. test mysql password on the mysql bash as 
+
+   echo $MYSQL_ROOT_PASSWORD
+   
+ 10. log into mysql 
+ 
+    mysql --user=root --password=$MYSQL_ROOT_PASSWORD
 
 
 
