@@ -28,8 +28,9 @@ $ kubectl create -f mysql-pod.yaml
 
 $ kubectl get pod
 
-   
-   
+8. connect to the mysql bash
+
+  kubectl exec k8s-mysql -it -- bash
 
 
 
