@@ -60,7 +60,13 @@ exit;
 
 $ kubectl create -f mysql-service.yaml
 
+14. verfy the services running
 
+   >kubectl get service
+   
+15. we need to get the IP Address of mysql pod "k8s-mysql" using below command
+
+$ kubectl get pod k8s-mysql -o template --template={{.status.podIP}}
 
 
 //Refrence - https://www.middlewareinventory.com/blog/deploy-docker-image-to-kubernetes/#:~:text=%20Steps%20to%20Deploy%20Docker%20Image%20to%20Kubernetes.,the%20container%20from%20image.%20Start%20the...%20More%20
